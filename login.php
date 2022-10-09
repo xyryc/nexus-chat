@@ -1,3 +1,11 @@
+<?php
+  session_start();
+  if(isset($_SESSION['unique_id'])){
+    header("location: users.php");
+  }
+?>
+
+
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
@@ -22,6 +30,9 @@
     </section>
   </div>
 
+
+  <script src="js/pass-show-hide.js"></script>
+  <script src="js/login.js"></script>
 
 </body>
 </html>
