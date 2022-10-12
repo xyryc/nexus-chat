@@ -5,6 +5,8 @@
     header("location: login.php");
   }
 ?>
+
+
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
@@ -17,11 +19,21 @@
               $row = mysqli_fetch_assoc($sql);
             }
           ?>
-          <img src="php/images/<?php echo $row['img']; ?>" alt="">
-          <div class="details">
+
+          <a href="php/profile.php">
+            <img src="php/images/<?php echo $row['img']; ?>" alt="">
+            <div class="details">
+          </a>
+
+
+            <a href="php/profile.php">
             <span><?php echo $row['fname']. " " . $row['lname'] ?></span>
+            </a>
+
             <p><?php echo $row['status']; ?></p>
           </div>
+
+
         </div>
         <a href="php/logout.php?logout_id=<?php echo $row['unique_id']; ?>" class="logout">Logout</a>
       </header>
