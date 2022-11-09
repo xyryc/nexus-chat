@@ -8,6 +8,8 @@
 
 
 <?php include_once "header.php"; ?>
+
+
 <body>
   <div class="wrapper">
     <section class="form signup">
@@ -45,7 +47,6 @@
     </section>
   </div>
 
-  <!-- 10 oct -->
   <script src="js/password-eye-btn.js"></script>
   <script src="js/signup.js"></script>
 
