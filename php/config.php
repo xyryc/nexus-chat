@@ -2,7 +2,7 @@
   $hostname = "localhost";
   $username = "root";
   $password = "";
-  $dbname = "webchatapp";
+  $dbname = "textboxdb";
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
   
