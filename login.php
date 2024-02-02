@@ -10,7 +10,7 @@
 <body>
   <div class="wrapper">
     <section class="form login">
-      <header>Royal Chat Web</header>
+      <header>TextBox Messenger</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="field input">
@@ -26,12 +26,12 @@
           <input type="submit" name="submit" value="Continue to Chat">
         </div>
       </form>
-      <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
+      <div class="link">Don't have an account? <a href="index.php">Sign up now</a></div>
     </section>
   </div>
 
 
-  <script src="js/pass-show-hide.js"></script>
+  <script src="js/password-eye-btn.js"></script>
   <script src="js/login.js"></script>
 
 </body>

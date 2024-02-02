@@ -1,1 +1,2 @@
-test text file
+*****This file was created for test purposes only*****
+*****You can delete this file safely*****

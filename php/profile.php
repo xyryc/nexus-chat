@@ -39,7 +39,7 @@
           <h4><span><?php echo $row['email']?></span></h4>
         </div>
         <div class="col-4">
-          <h4>My name is <?php echo $row['fname']. " " . $row['lname'] ?>. I love programming. Design is my passion. Feel free to contact me. Thanks.</h4>
+          <h4>Hi, I am <?php echo $row['fname']. " " . $row['lname'] ?>. I have a passion for programming and design is my forte. Please feel free to contact me. Thank you.</h4>
 
         </div>
       </div>
