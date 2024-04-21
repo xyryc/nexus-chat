@@ -34,6 +34,16 @@ To run the application locally:
 
 4. Open `index.html` in your web browser.
 
+## Technologies Used
+
+- JavaScript
+- HTML
+- CSS
+- PHP
+- MySQL
+- AJAX
+- Other dependencies...
+
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues if you encounter any bugs or have suggestions for improvements.
