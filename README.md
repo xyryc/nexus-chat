@@ -1,5 +1,5 @@
 # Nexus Chat
-
+<img src="./screenshots/image1.png" width="500" alt="Screenshot 1">
 Nexus Chat is a web-based chat application developed using JavaScript for client-side functionality and MySQL and PHP for server-side operations.
 
 ## Features
